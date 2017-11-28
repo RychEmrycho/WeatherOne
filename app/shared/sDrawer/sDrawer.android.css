@@ -1,0 +1,55 @@
+.sidedrawer.sidedrawer-center .sidedrawer-header-image {
+    color: #F8F8F8;
+    height: 60;
+    width: 60;
+    font-size: 60;
+    padding: 0;
+    margin-bottom: 5;
+    margin-top: 20
+}
+
+.sidedrawer.sidedrawer-center .footnote {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center
+}
+
+.sidedrawer .sidedrawer-header {
+    border-bottom-right-radius: 15;
+    background-color: #00BFA5;
+    height: 30%;
+    vertical-align: center;
+}
+
+.sidedrawer .sidedrawer-header .sidedrawer-header-brand {
+    color: #fff
+}
+
+.sidedrawer .sidedrawer-content {}
+
+.sidedrawer .sidedrawer-list-item {
+    padding-left: 20
+}
+
+.sidedrawer .sidedrawer-list-item Label {
+    vertical-align: center;
+    color: #022734
+}
+
+.sDrawerText {
+    font-family: 'Raleway-Light';
+    font-size: 18;
+}
+
+.sidedrawer .sidedrawer-list-item .fa {
+    width: 25;
+    font-size: 25;
+    margin-right: 20
+}
+
+.sidedrawer .sidedrawer-list-item.selected {
+    background-color: #F8F8F8
+}
+
+.sidedrawer .sidedrawer-list-item.selected Label {
+    color: #3A53FF
+}

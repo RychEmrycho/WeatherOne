@@ -1,0 +1,353 @@
+<Page class="page" navigatingTo="onNavigatingTo" 
+    xmlns:nsDrawer="nativescript-pro-ui/sidedrawer" 
+    xmlns:sDrawer="shared/sDrawer" 
+    xmlns:Gradient="nativescript-gradient" 
+    xmlns:Card="nativescript-cardview" 
+    xmlns="http://www.nativescript.org/tns.xsd">
+    <ActionBar class="action-bar">
+        <NavigationButton icon="res://menu" tap="onDrawerButtonTap"></NavigationButton>
+        <Label class="action-bar-title" text="Cuaca"></Label>
+    </ActionBar>
+    <nsDrawer:RadSideDrawer id="sideDrawer" showOverNavigation="true">
+        <nsDrawer:RadSideDrawer.drawerTransition>
+            <nsDrawer:SlideInOnTopTransition/>
+        </nsDrawer:RadSideDrawer.drawerTransition>
+        <nsDrawer:RadSideDrawer.drawerContent>
+            <StackLayout>
+                <sDrawer:sDrawer selectedPage="Cuaca"/>
+            </StackLayout>
+        </nsDrawer:RadSideDrawer.drawerContent>
+        <nsDrawer:RadSideDrawer.mainContent>
+            <ScrollView>
+                <StackLayout class="page-content">
+                    <!--<Card:CardView class="cardStyle" margin="10" elevation="40" radius="5"><grid-layout rows="200, auto, auto" columns="auto, auto, *"><image src="res://beach" stretch="aspectFill" colSpan="3" row="0" /><label text="Batman wants to be friends?" class="info" textWrap="true" row="1" colSpan="3" /><button text="DECLINE" class="btn btn-outline" tap="goAway" row="2" col="0" /><button text="ACCEPT" class="btn btn-outline" row="2" col="1" /></grid-layout></Card:CardView>-->
+                    <!-- <Gradient:Gradient direction="to right" colors="#FF0077, red, #FF00FF"></Gradient:Gradient> -->
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="15">
+                        <Grid-Layout columns="*, *">
+                            <StackLayout col="0" padding="15">
+                                <!-- <Label text="Ringkasan" class="f-raleway-l c-blue" horizontalAlignment="center" fontSize="30" textWrap="true" /> -->
+                                <Label text="{{ templateLokasi }}" class="f-raleway-l c-blue m-b-10" horizontalAlignment="center" fontSize="25" textWrap="true" />
+                                <Grid-Layout rows="*,*" columns="*, auto">
+                                    <Label row="0" col="0" text="RealFeel&reg; (&deg;C):" class="c-blue f-raleway-l" horizontalAlignment="left" fontSize="15" textWrap="true" />
+                                    <Label row="1" col="0" text="{{ templateHeadlineSuhu }}" class="f-raleway-l c-blue" horizontalAlignment="left" fontSize="14" textWrap="true" />
+                                    <Label rowSpan="2" col="1" text="&#xf055;" class="f-weather-i c-blue" fontSize="20" verticalAlignment="center" textWrap="true" />
+                                </Grid-Layout>
+                                <Grid-Layout rows="*,*" columns="*, auto" class="m-b-10">
+                                    <Label row="0" col="0" text="Suhu Min/Maks (&deg;C):" class="c-blue  f-raleway-l" horizontalAlignment="left" fontSize="15" textWrap="true" />
+                                    <Label row="1" col="0" text="19&deg;/27&deg;" class="f-raleway-l c-blue" horizontalAlignment="left" fontSize="14" textWrap="true" />
+                                    <Label rowSpan="2" col="1" text="&#xf053;" class="f-weather-i c-blue" fontSize="20" verticalAlignment="center" textWrap="true" />
+                                </Grid-Layout>
+                                <Label text="Pada: 09:21 PM, 18 November 2017" class="f-raleway-l c-gray" horizontalAlignment="left" fontSize="14" textWrap="true" />
+                            </StackLayout>
+                            <StackLayout col="1" class="c-bg-blue" padding="20">
+                                <Grid-Layout rows="auto,auto,auto" columns="*,*">
+                                    <Label row="0" colSpan="2" text="&#xf002;" fontSize="70" color="#fff" horizontalAlignment="center" class="f-weather-i" textWrap="true" />
+                                    <Label row="1" colSpan="2" text="Cerah Berawan" textWrap="true" class="f-raleway-l" fontSize="20" color="#fff" horizontalAlignment="center" />
+                                    <Label row="2" col="0" text="25" textWrap="true" class="f-raleway-l" fontSize="35" color="#fff" horizontalAlignment="right" />
+                                    <Label row="2" col="1" text="&#xf03c;" textWrap="true" class="f-weather-i" fontSize="35" color="#fff" horizontalAlignment="left" />
+                                </Grid-Layout>
+                            </StackLayout>
+                        </Grid-Layout>
+                    </Card:CardView>
+                    
+                    <Grid-Layout columns="*, *" class="p-l-10 p-r-10">
+                        <Button col="0" text="Trigger1" class="btn-primary" tap="{{ test }}" />
+                        <Button col="1" text="Trigger2" class="btn-primary" tap="{{ trigger }}" />
+                    </Grid-Layout>
+
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="15">
+                        <Gradient:Gradient direction="to bottom" colors="#000000, #434343">
+                            <Label class="title-card f-weather-i c-bg-black c-white" width="20%" horizontalAlignment="center" textAlignment="center" fontSize="20" text="&#xf019;" />
+                            <Grid-Layout rows="auto, auto" columns="*, auto" class="p-15">
+                                <Label row="0" col="0" class="f-raleway-l va-c" color="#fff" fontSize="16" verticalAlignment="center" horizontalAlignment="left" textWrap="true" text="Kemungkinan hujan:" />
+                                <Label row="0" col="1" class="f-raleway-l" color="#fff" fontSize="25" horizontalAlignment="right" textWrap="true" text="78%" />
+                                <Label row="1" col="0" class="f-raleway-l va-c" color="#fff" fontSize="16" verticalAlignment="center" horizontalAlignment="left" textWrap="true" text="Kemungkinan petir:" />
+                                <Label row="1" col="1" class="f-raleway-l" color="#fff" fontSize="25" horizontalAlignment="right" textWrap="true" text="80%" />
+                            </Grid-Layout>
+                        </Gradient:Gradient>
+                    </Card:CardView>
+
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="15">
+                        <Gradient:Gradient direction="to bottom" colors="#000000, #434343">
+                            <Label class="title-card fa c-bg-black c-white" width="20%" horizontalAlignment="center" textAlignment="center" fontSize="20" text="&#xf0a2;" />
+                            <Grid-Layout rows="auto,auto" class="p-15">
+                                <Label row="0" class="f-raleway-l" color="#fff" fontSize="16" textWrap="true" text="Tip:" />
+                                <Label row="1" class="f-raleway-l" color="#fff" fontSize="20" textWrap="true" text="Kamu mungkin akan membutuhkan Payung dan Jaket hari ini." />
+                            </Grid-Layout>
+                        </Gradient:Gradient>
+                    </Card:CardView>
+
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="15">
+                        <Gradient:Gradient direction="to bottom" colors="#000000, #434343">
+                        <Grid-Layout rows="auto, auto">
+                            <Grid-Layout color="white" row="0" class="p-15" rows="*,*,*,*,*,*,*" columns="*,*,*">
+                                <Label row="0" col="0" fontSize="20" class="f-weather-i m-b-5" horizontalAlignment="center" text="&#xf07a;" />
+                                <Label row="1" col="0" fontSize="16" class="f-raleway-l" horizontalAlignment="center" text="Kelembaban" />
+                                <Label row="2" col="0" fontSize="25" class="f-raleway-l" horizontalAlignment="center" text="88%" />
+                                <Label row="0" col="1" fontSize="20" class="f-weather-i m-b-5" horizontalAlignment="center" text="&#xf00d;" />
+                                <Label row="1" col="1" fontSize="16" class="f-raleway-l" horizontalAlignment="center" text="Indeks UV" />
+                                <Label row="2" col="1" fontSize="25" class="f-raleway-l" horizontalAlignment="center" text="7" />
+                                <Label row="0" col="2" fontSize="20" class="fa m-b-5" horizontalAlignment="center" text="&#xf06e;" />
+                                <Label row="1" col="2" fontSize="16" class="f-raleway-l" horizontalAlignment="center" text="Jarak Pandang" />
+                                <Label row="2" col="2" fontSize="25" class="f-raleway-l" horizontalAlignment="center" text="8 km" />
+                                <StackLayout row="3" col="0" class="hr-dark m-t-15 m-b-15 w-half"></StackLayout>
+                                <StackLayout row="3" col="1" class="hr-dark m-t-15 m-b-15 w-half"></StackLayout>
+                                <StackLayout row="3" col="2" class="hr-dark m-t-15 m-b-15 w-half"></StackLayout>
+                                <Label row="4" col="0" fontSize="20" class="f-weather-i m-b-5" horizontalAlignment="center" text="&#xf079;" />
+                                <Label row="5" col="0" fontSize="16" class="f-raleway-l" horizontalAlignment="center" text="Tekanan" />
+                                <Label row="6" col="0" fontSize="25" class="f-raleway-l" horizontalAlignment="center" text="1010 mb" />
+                                <Label row="4" col="1" fontSize="20" class="f-weather-i m-b-5" horizontalAlignment="center" text="&#xf055;" />
+                                <Label row="5" col="1" fontSize="16" class="f-raleway-l" horizontalAlignment="center" text="Titik Embun" />
+                                <Label row="6" col="1" fontSize="25" class="f-raleway-l" horizontalAlignment="center" text="23&deg;" />
+                                <Label row="4" col="2" fontSize="20" class="f-weather-i m-b-5" horizontalAlignment="center" text="&#xf041;" />
+                                <Label row="5" col="2" fontSize="16" class="f-raleway-l" horizontalAlignment="center" text="Awan di Langit" />
+                                <Label row="6" col="2" fontSize="25" class="f-raleway-l" horizontalAlignment="center" text="20%" />
+                            </Grid-Layout>
+                            <Label row="1" class="title-card-b f-raleway-l c-bg-black c-white" width="40%" horizontalAlignment="center" textAlignment="center" fontSize="20" text="Ringkasan" />
+                        </Grid-Layout>
+                        </Gradient:Gradient>
+                    </Card:CardView>
+
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="0">
+                        <Gradient:Gradient direction="to right" colors="#000000, #434343">
+                            <Grid-Layout rows="auto">
+                                <Label row="0" class="title-card-l f-raleway-l c-bg-black c-white" width="60%" horizontalAlignment="left" textAlignment="left" fontSize="20" text="Detail" />
+                            </Grid-Layout>
+                        </Gradient:Gradient>
+                    </Card:CardView>
+
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="15">
+                        <Gradient:Gradient direction="to bottom" colors="#000000, #434343">
+                            <Label class="title-card f-weather-i c-bg-black c-white" width="20%" horizontalAlignment="center" textAlignment="center" fontSize="20" text="&#xf055;" />                        
+                            <Label class="f-raleway-l c-white" horizontalAlignment="center" textAlignment="center" fontSize="20" text="Suhu (&deg;C)" />
+                                <GridLayout class="c-blue m-t-15 p-b-15" columns="*, *" rows="auto, auto">
+                                    <Label row="0" col="0" class="next-hours f-raleway-l h3 ha-c" fontSize="35" text="25&deg;"></Label>
+                                    <Label row="1" col="0" class="next-hours f-raleway-l h3 ha-c" text="RealFeel&reg; 23&deg;"></Label>
+
+                                    <Label row="0" col="1" class="next-hours f-raleway-l h3 ha-c va-c" text="Min: 19&deg;"></Label>
+                                    <Label row="1" col="1" class="next-hours f-raleway-l h3 ha-c va-c" text="Maks: 25&deg;"></Label>
+                                </GridLayout>
+                        </Gradient:Gradient>
+                    </Card:CardView>
+
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="15">
+                        <Gradient:Gradient direction="to bottom" colors="#000000, #434343">
+                            <Label class="title-card f-weather-i c-bg-black c-white" width="20%" horizontalAlignment="center" textAlignment="center" fontSize="20" text="&#xf019;" />                        
+                            <Label class="f-raleway-l c-white" horizontalAlignment="center" textAlignment="center" fontSize="20" text="Hujan" />
+                                <GridLayout class="c-blue m-t-15 p-b-15" columns="*, auto, auto," rows="auto, auto">
+                                    <Label row="0" col="0" class="next-hours h3 m-15 f-raleway-l" text="Curah hujan"></Label>
+                                    <Label row="0" col="1" class="next-hours m-15 f-weather-i" fontSize="20" text="&#xf00d;"></Label>
+                                    <Label row="0" col="2" class="next-hours h3 m-15 f-raleway-l" text="4 mm"></Label>
+
+                                    <Label row="1" col="0" class="next-hours h3 m-15 f-raleway-l" text="Presipitasi Hujan"></Label>
+                                    <Label row="1" col="1" class="next-hours m-15 f-weather-i" fontSize="20" text="&#xf00d;"></Label>
+                                    <Label row="1" col="2" class="next-hours h3 m-15 f-raleway-l" text="76%"></Label>                                    
+                                </GridLayout>
+                        </Gradient:Gradient>
+                    </Card:CardView>
+
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="15">
+                        <Gradient:Gradient direction="to bottom" colors="#000000, #434343">
+                            <Label class="title-card f-weather-i c-bg-black c-white" width="20%" horizontalAlignment="center" textAlignment="center" fontSize="20" text="&#xf050;" />                        
+                            <Label class="f-raleway-l c-white" horizontalAlignment="center" textAlignment="center" fontSize="20" text="Angin" />
+                                <GridLayout class="c-blue m-t-15 p-b-15" columns="*, auto, auto," rows="auto, auto, auto, auto">
+                                    <Label row="0" col="0" class="next-hours h3 m-15 f-raleway-l" text="Arah"></Label>
+                                    <Label row="0" col="1" class="next-hours m-15 f-weather-i" fontSize="20" text="&#xf00d;"></Label>
+                                    <Label row="0" col="2" class="next-hours h3 m-15 f-raleway-l" text="Utara"></Label>
+
+                                    <Label row="1" col="0" class="next-hours h3 m-15 f-raleway-l" text="Kecepatan"></Label>
+                                    <Label row="1" col="1" class="next-hours m-15 f-weather-i" fontSize="20" text="&#xf00d;"></Label>
+                                    <Label row="1" col="2" class="next-hours h3 m-15 f-raleway-l" text="3 km/j"></Label>
+                                    
+
+                                    <Label row="2" col="0" class="next-hours h3 m-15 f-raleway-l" text="Wind Chill"></Label>
+                                    <Label row="2" col="1" class="next-hours m-15 f-weather-i" fontSize="20" text="&#xf00d;"></Label>
+                                    <Label row="2" col="2" class="next-hours h3 m-15 f-raleway-l" text="20&deg;"></Label>
+                                    
+
+                                    <Label row="3" col="0" class="next-hours h3 m-15 f-raleway-l" text="Angin Kencang"></Label>
+                                    <Label row="3" col="1" class="next-hours m-15 f-weather-i" fontSize="20" text="&#xf00d;"></Label>
+                                    <Label row="3" col="2" class="next-hours h3 m-15 f-raleway-l" text="6 km/j"></Label>
+                                </GridLayout>
+                        </Gradient:Gradient>
+                    </Card:CardView>
+
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="15">
+                        <Gradient:Gradient direction="to bottom" colors="#000000, #434343">
+                            <Label class="title-card f-weather-i c-bg-black c-white" width="20%" horizontalAlignment="center" textAlignment="center" fontSize="20" text="&#xf00d;" />                        
+                            <Label class="f-raleway-l c-white" horizontalAlignment="center" textAlignment="center" fontSize="20" text="Matahari" />
+                                <GridLayout class="c-blue m-t-15 p-b-15" columns="*, *" rows="*, auto, auto">
+                                    <Label row="0" col="0" class="next-hours f-weather-i h1 ha-c" text="&#xf051;"></Label>
+                                    <Label row="1" col="0" class="next-hours f-raleway-l h2 ha-c" text="06:08"></Label>
+                                    <Label row="2" col="0" class="next-hours f-raleway-l h4 ha-c" text="Terbit"></Label>
+
+                                    <Label row="0" col="1" class="next-hours f-weather-i h1 ha-c" text="&#xf052;"></Label>
+                                    <Label row="1" col="1" class="next-hours f-raleway-l h2 ha-c va-c" text="18:05"></Label>
+                                    <Label row="2" col="1" class="next-hours f-raleway-l h4 ha-c va-c" text="Terbenam"></Label>
+                                </GridLayout>
+                        </Gradient:Gradient>
+                    </Card:CardView>
+
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="15">
+                        <Gradient:Gradient direction="to bottom" colors="#000000, #434343">
+                            <Label class="title-card f-weather-i c-bg-black c-white" width="20%" horizontalAlignment="center" textAlignment="center" fontSize="20" text="&#xf02e;" />                        
+                            <Label class="f-raleway-l c-white" horizontalAlignment="center" textAlignment="center" fontSize="20" text="Bulan" />
+                                <GridLayout class="c-blue m-t-15 p-b-15" columns="*, *" rows="*, auto, auto, *, auto, auto">
+                                    <Label row="0" colSpan="2" class="next-hours f-weather-i ha-c va-c" fontSize="60" text="&#xf099;"></Label>
+
+                                    <Label row="1" col="0" class="next-hours f-raleway-l h3 ha-c va-c" text="Fase:"></Label>
+                                    <Label row="2" col="0" class="next-hours f-raleway-l h2 ha-c va-c" text="New"></Label>
+
+                                    <Label row="1" col="1" class="next-hours f-raleway-l h3 ha-c va-c" text="Umur:"></Label>
+                                    <Label row="2" col="1" class="next-hours f-raleway-l h2 ha-c va-c" text="2 hari"></Label>
+
+                                    <Label row="3" col="0" class="next-hours f-weather-i h1 ha-c" text="&#xf0c9;"></Label>
+                                    <Label row="4" col="0" class="next-hours f-raleway-l h2 ha-c" text="06:08"></Label>
+                                    <Label row="5" col="0" class="next-hours f-raleway-l h4 ha-c" text="Muncul"></Label>
+
+                                    <Label row="3" col="1" class="next-hours f-weather-i h1 ha-c" text="&#xf0ca;"></Label>
+                                    <Label row="4" col="1" class="next-hours f-raleway-l h2 ha-c va-c" text="18:05"></Label>
+                                    <Label row="5" col="1" class="next-hours f-raleway-l h4 ha-c va-c" text="Menghilang"></Label>
+
+                                </GridLayout>
+                        </Gradient:Gradient>
+                    </Card:CardView>
+
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="15">
+                        <Gradient:Gradient direction="to bottom" colors="#000000, #434343">
+                            <Label class="f-raleway-l c-white m-t-15 m-b-15" horizontalAlignment="center" textAlignment="center" fontSize="20" text="Setiap Jam" />
+                            <ScrollView id="scrollNextHours" orientation="horizontal">
+                                <GridLayout class="c-blue p-t-0 p-b-15 p-l-10 p-r-10" rows="*, *, *" columns="auto auto auto auto auto auto auto auto auto auto auto auto">
+                                    <Label col="0" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="0" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="0" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="1 AM"></Label>
+
+                                    <Label col="1" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="1" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="1" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="1 AM"></Label>
+
+                                    <Label col="2" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="2" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="2" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="2 AM"></Label>
+
+                                    <Label col="3" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="3" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="3" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="3 AM"></Label>
+
+                                    <Label col="4" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="4" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="4" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="4 AM"></Label>
+
+                                    <Label col="5" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="5" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="5" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="5 AM"></Label>
+
+                                    <Label col="6" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="6" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="6" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="6 AM"></Label>
+
+                                    <Label col="7" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="7" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="7" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="7 AM"></Label>
+
+                                    <Label col="8" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="8" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="8" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="8 AM"></Label>
+
+                                    <Label col="9" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="9" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="9" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="9 AM"></Label>
+
+                                    <Label col="10" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="10" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="10" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="10 AM"></Label>
+
+                                    <Label col="11" row="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label col="11" row="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label col="11" row="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="11 AM"></Label>
+                                </GridLayout>
+                            </ScrollView>                                
+                        </Gradient:Gradient>
+                    </Card:CardView>
+                    <Card:CardView class="cardStyle" margin="10" elevation="40" radius="15">
+                        <Gradient:Gradient direction="to bottom" colors="#000000, #434343">
+                            <Label class="f-raleway-l c-white m-t-15 m-b-15" horizontalAlignment="center" textAlignment="center" fontSize="20" text="Harian" />
+                            <ScrollView class="p-15 m-b-10" orientation="horizontal">
+                                <GridLayout class="c-blue p-t-0 p-b-15 p-l-10 p-r-10" columns="*, *, *, *, *, *" rows="auto auto auto auto auto auto auto auto auto">
+                                    <Label row="0" col="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="Siang"></Label>
+                                    <Label row="1" col="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="Maks"></Label>
+                                    <Label row="2" col="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="Hujan"></Label>
+                                    <Label row="3" col="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="Angin"></Label>
+                                    <Label row="4" col="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="Malam"></Label>
+                                    <Label row="5" col="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="Min"></Label>
+                                    <Label row="6" col="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="Hujan"></Label>
+                                    <Label row="7" col="0" class="next-hours h3 m-15 f-raleway-l ha-c" text="Angin"></Label>
+
+                                    <Label row="0" col="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label row="1" col="1" class="next-hours h3 m-15 f-raleway-l ha-c" text="25&deg;"></Label>
+                                    <Label row="2" col="1" class="next-hours h3 m-15 f-raleway-l ha-c" text="58%"></Label>
+                                    <Label row="3" col="1" class="next-hours h3 m-15 f-raleway-l ha-c" text="4 km/j"></Label>
+                                    <Label row="4" col="1" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf02e;"></Label>
+                                    <Label row="5" col="1" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label row="6" col="1" class="next-hours h3 m-15 f-raleway-l ha-c" text="58%"></Label>
+                                    <Label row="7" col="1" class="next-hours h3 m-15 f-raleway-l ha-c" text="4 km/j"></Label>
+
+                                    <Label row="0" col="2" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label row="1" col="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="25&deg;"></Label>
+                                    <Label row="2" col="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="40%"></Label>
+                                    <Label row="3" col="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="4 km/j"></Label>
+                                    <Label row="4" col="2" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf02e;"></Label>
+                                    <Label row="5" col="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="18&deg;"></Label>
+                                    <Label row="6" col="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="40%"></Label>
+                                    <Label row="7" col="2" class="next-hours h3 m-15 f-raleway-l ha-c" text="4 km/j"></Label>
+
+                                    <Label row="0" col="3" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label row="1" col="3" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label row="2" col="3" class="next-hours h3 m-15 f-raleway-l ha-c" text="50%"></Label>
+                                    <Label row="3" col="3" class="next-hours h3 m-15 f-raleway-l ha-c" text="4 km/j"></Label>
+                                    <Label row="4" col="3" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf02e;"></Label>
+                                    <Label row="5" col="3" class="next-hours h3 m-15 f-raleway-l ha-c" text="19&deg;"></Label>
+                                    <Label row="6" col="3" class="next-hours h3 m-15 f-raleway-l ha-c" text="50%"></Label>
+                                    <Label row="7" col="3" class="next-hours h3 m-15 f-raleway-l ha-c" text="4 km/j"></Label>
+
+                                    <Label row="0" col="4" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label row="1" col="4" class="next-hours h3 m-15 f-raleway-l ha-c" text="25&deg;"></Label>
+                                    <Label row="2" col="4" class="next-hours h3 m-15 f-raleway-l ha-c" text="60%"></Label>
+                                    <Label row="3" col="4" class="next-hours h3 m-15 f-raleway-l ha-c" text="3 km/j"></Label>
+                                    <Label row="4" col="4" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf02e;"></Label>
+                                    <Label row="5" col="4" class="next-hours h3 m-15 f-raleway-l ha-c" text="25&deg;"></Label>
+                                    <Label row="6" col="4" class="next-hours h3 m-15 f-raleway-l ha-c" text="60%"></Label>
+                                    <Label row="7" col="4" class="next-hours h3 m-15 f-raleway-l ha-c" text="3 km/j"></Label>
+
+                                    <Label row="0" col="5" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf00d;"></Label>
+                                    <Label row="1" col="5" class="next-hours h3 m-15 f-raleway-l ha-c" text="25&deg;"></Label>
+                                    <Label row="2" col="5" class="next-hours h3 m-15 f-raleway-l ha-c" text="6%"></Label>
+                                    <Label row="3" col="5" class="next-hours h3 m-15 f-raleway-l ha-c" text="5 km/j"></Label>
+                                    <Label row="4" col="5" class="next-hours h3 m-15 f-weather-i ha-c" text="&#xf02e;"></Label>
+                                    <Label row="5" col="5" class="next-hours h3 m-15 f-raleway-l ha-c" text="25&deg;"></Label>
+                                    <Label row="6" col="5" class="next-hours h3 m-15 f-raleway-l ha-c" text="6%"></Label>
+                                    <Label row="7" col="5" class="next-hours h3 m-15 f-raleway-l ha-c" text="5 km/j"></Label>
+
+                                    <Label row="8" col="1" class="next-hours h3 m-15  f-raleway-l ha-c" text="Sen"></Label>
+                                    <Label row="8" col="2" class="next-hours h3 m-15  f-raleway-l ha-c" text="Sel"></Label>
+                                    <Label row="8" col="3" class="next-hours h3 m-15  f-raleway-l ha-c" text="Rab"></Label>
+                                    <Label row="8" col="4" class="next-hours h3 m-15  f-raleway-l ha-c" text="Kam"></Label>
+                                    <Label row="8" col="5" class="next-hours h3 m-15  f-raleway-l ha-c" text="Jum"></Label>
+                                </GridLayout>
+                            </ScrollView>                                
+                        </Gradient:Gradient>
+                    </Card:CardView>
+
+                    <!-- <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
+                        <grid-layout rows="200, auto, auto" columns="auto, auto, *">
+                            <Image src="res://beach" stretch="aspectFill" colSpan="3" row="0" />
+                            <Label row="1" class="f-raleway-l c-blue p-15" fontSize="20" text="Pemberitahuan dari pengembang" />
+                            <Label class="f-raleway-l p-l-15 p-r-15 p-b-15" fontSize="16" textWrap="true" row="2" colSpan="3" text="Mungkin aplikasi ini masih belum dapat bekerja dengan baik, dikarenakan pengembang masih menggunakan Layanan API gratis dari ACCUWEATHER. Dari total keseluruhan pengguna, diberi batasan melakukan pemanggilan sebanyak 10 kali/menit dan 50 kali/hari." />
+                        </grid-layout>
+                    </Card:CardView> -->
+
+                </StackLayout>
+            </ScrollView>
+        </nsDrawer:RadSideDrawer.mainContent>
+    </nsDrawer:RadSideDrawer>
+</Page>

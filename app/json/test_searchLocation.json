@@ -1,0 +1,77 @@
+// var cache = require("nativescript-cache");
+
+// cache.set("key1", "val1");
+// cache.get("key1"); // "val1"
+
+// cache.delete("key1");
+// cache.get("key1"); // undefined
+
+// cache.set("key2", "val2");
+// cache.set("key3", "val3");
+// cache.clear();
+// cache.get("key3"); // undefined
+
+[{
+    "Version": 1,
+    "Key": "3436452",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Sitoluama",
+    "EnglishName": "Sitoluama",
+    "PrimaryPostalCode": "",
+    "Region": {
+        "ID": "ASI",
+        "LocalizedName": "Asia",
+        "EnglishName": "Asia"
+    },
+    "Country": {
+        "ID": "ID",
+        "LocalizedName": "Indonesia",
+        "EnglishName": "Indonesia"
+    },
+    "AdministrativeArea": {
+        "ID": "SU",
+        "LocalizedName": "North Sumatra",
+        "EnglishName": "North Sumatra",
+        "Level": 1,
+        "LocalizedType": "Province",
+        "EnglishType": "Province",
+        "CountryID": "ID"
+    },
+    "TimeZone": {
+        "Code": "WIT",
+        "Name": "Asia/Jakarta",
+        "GmtOffset": 7,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+    },
+    "GeoPosition": {
+        "Latitude": 2.379,
+        "Longitude": 99.147,
+        "Elevation": {
+            "Metric": {
+                "Value": 918,
+                "Unit": "m",
+                "UnitType": 5
+            },
+            "Imperial": {
+                "Value": 3011,
+                "Unit": "ft",
+                "UnitType": 0
+            }
+        }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [{
+            "Level": 2,
+            "LocalizedName": "Toba Samosir",
+            "EnglishName": "Toba Samosir"
+        },
+        {
+            "Level": 3,
+            "LocalizedName": "Laguboti",
+            "EnglishName": "Laguboti"
+        }
+    ],
+    "DataSets": []
+}]

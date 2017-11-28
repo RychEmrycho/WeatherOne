@@ -1,0 +1,1033 @@
+[{
+        "DateTime": "2017-11-20T12:00:00+07:00",
+        "EpochDateTime": 1511154000,
+        "WeatherIcon": 4,
+        "IconPhrase": "Berawan terputus-putus",
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 25.2,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 31.3,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 22.7,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 21.3,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 5.6,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 44,
+                "Localized": "TL",
+                "English": "NE"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 7.4,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 79,
+        "Visibility": {
+            "Value": 9.7,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 8,
+        "UVIndexText": "Sangat tinggi",
+        "PrecipitationProbability": 51,
+        "RainProbability": 51,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 1,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 1,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 70,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=12&unit=c&lang=id-id"
+    },
+    {
+        "DateTime": "2017-11-20T13:00:00+07:00",
+        "EpochDateTime": 1511157600,
+        "WeatherIcon": 3,
+        "IconPhrase": "Sebagian cerah",
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 24.7,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 31.8,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 22.9,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 21.9,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 5.6,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 45,
+                "Localized": "TL",
+                "English": "NE"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 9.3,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 84,
+        "Visibility": {
+            "Value": 16.1,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 9,
+        "UVIndexText": "Sangat tinggi",
+        "PrecipitationProbability": 47,
+        "RainProbability": 47,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 35,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=13&unit=c&lang=id-id"
+    },
+    {
+        "DateTime": "2017-11-20T14:00:00+07:00",
+        "EpochDateTime": 1511161200,
+        "WeatherIcon": 4,
+        "IconPhrase": "Berawan terputus-putus",
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 24.5,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 31.1,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 22.9,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 22,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 5.6,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 45,
+                "Localized": "TL",
+                "English": "NE"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 9.3,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 86,
+        "Visibility": {
+            "Value": 16.1,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 6,
+        "UVIndexText": "Tinggi",
+        "PrecipitationProbability": 47,
+        "RainProbability": 47,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 54,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=14&unit=c&lang=id-id"
+    },
+    {
+        "DateTime": "2017-11-20T15:00:00+07:00",
+        "EpochDateTime": 1511164800,
+        "WeatherIcon": 16,
+        "IconPhrase": "Umumnya berawan dengan badai petir",
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 24.1,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 27.9,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 22.8,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 21.9,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 3.7,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 41,
+                "Localized": "TL",
+                "English": "NE"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 7.4,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 88,
+        "Visibility": {
+            "Value": 6.4,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 3,
+        "UVIndexText": "Sedang",
+        "PrecipitationProbability": 51,
+        "RainProbability": 51,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 4,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 4,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 73,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=15&unit=c&lang=id-id"
+    },
+    {
+        "DateTime": "2017-11-20T16:00:00+07:00",
+        "EpochDateTime": 1511168400,
+        "WeatherIcon": 7,
+        "IconPhrase": "Berawan",
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 23.6,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 28,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 22.5,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 21.7,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 3.7,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 36,
+                "Localized": "TL",
+                "English": "NE"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 5.6,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 89,
+        "Visibility": {
+            "Value": 11.3,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 1,
+        "UVIndexText": "Rendah",
+        "PrecipitationProbability": 47,
+        "RainProbability": 47,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 93,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=16&unit=c&lang=id-id"
+    },
+    {
+        "DateTime": "2017-11-20T17:00:00+07:00",
+        "EpochDateTime": 1511172000,
+        "WeatherIcon": 7,
+        "IconPhrase": "Berawan",
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 22.8,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 26.1,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 21.8,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 21.2,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 3.7,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 215,
+                "Localized": "BD",
+                "English": "SW"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 5.6,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 90,
+        "Visibility": {
+            "Value": 9.7,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 1,
+        "UVIndexText": "Rendah",
+        "PrecipitationProbability": 47,
+        "RainProbability": 47,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 95,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=17&unit=c&lang=id-id"
+    },
+    {
+        "DateTime": "2017-11-20T18:00:00+07:00",
+        "EpochDateTime": 1511175600,
+        "WeatherIcon": 15,
+        "IconPhrase": "Badai petir",
+        "IsDaylight": true,
+        "Temperature": {
+            "Value": 21.2,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 21.5,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 21.2,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 20.6,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 3.7,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 215,
+                "Localized": "BD",
+                "English": "SW"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 5.6,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 97,
+        "Visibility": {
+            "Value": 8,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 0,
+        "UVIndexText": "Rendah",
+        "PrecipitationProbability": 51,
+        "RainProbability": 51,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 1,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 1,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 97,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=18&unit=c&lang=id-id"
+    },
+    {
+        "DateTime": "2017-11-20T19:00:00+07:00",
+        "EpochDateTime": 1511179200,
+        "WeatherIcon": 7,
+        "IconPhrase": "Berawan",
+        "IsDaylight": false,
+        "Temperature": {
+            "Value": 21.2,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 22.7,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 20.6,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 20.1,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 3.7,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 216,
+                "Localized": "BD",
+                "English": "SW"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 5.6,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 94,
+        "Visibility": {
+            "Value": 6.4,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 0,
+        "UVIndexText": "Rendah",
+        "PrecipitationProbability": 43,
+        "RainProbability": 43,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 99,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=19&unit=c&lang=id-id"
+    },
+    {
+        "DateTime": "2017-11-20T20:00:00+07:00",
+        "EpochDateTime": 1511182800,
+        "WeatherIcon": 12,
+        "IconPhrase": "Hujan singkat",
+        "IsDaylight": false,
+        "Temperature": {
+            "Value": 20.8,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 20.4,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 20.4,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 19.9,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 5.6,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 220,
+                "Localized": "BD",
+                "English": "SW"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 7.4,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 95,
+        "Visibility": {
+            "Value": 8,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 0,
+        "UVIndexText": "Rendah",
+        "PrecipitationProbability": 51,
+        "RainProbability": 51,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 1,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 1,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 96,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=20&unit=c&lang=id-id"
+    },
+    {
+        "DateTime": "2017-11-20T21:00:00+07:00",
+        "EpochDateTime": 1511186400,
+        "WeatherIcon": 7,
+        "IconPhrase": "Berawan",
+        "IsDaylight": false,
+        "Temperature": {
+            "Value": 20.2,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 21.2,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 20.2,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 19.6,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 5.6,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 225,
+                "Localized": "BD",
+                "English": "SW"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 7.4,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 97,
+        "Visibility": {
+            "Value": 8,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 0,
+        "UVIndexText": "Rendah",
+        "PrecipitationProbability": 47,
+        "RainProbability": 47,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 94,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=21&unit=c&lang=id-id"
+    },
+    {
+        "DateTime": "2017-11-20T22:00:00+07:00",
+        "EpochDateTime": 1511190000,
+        "WeatherIcon": 7,
+        "IconPhrase": "Berawan",
+        "IsDaylight": false,
+        "Temperature": {
+            "Value": 20.2,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 21,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 19.7,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 19.3,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 5.6,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 230,
+                "Localized": "BD",
+                "English": "SW"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 7.4,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 95,
+        "Visibility": {
+            "Value": 8,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 0,
+        "UVIndexText": "Rendah",
+        "PrecipitationProbability": 31,
+        "RainProbability": 31,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 91,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=22&unit=c&lang=id-id"
+    },
+    {
+        "DateTime": "2017-11-20T23:00:00+07:00",
+        "EpochDateTime": 1511193600,
+        "WeatherIcon": 38,
+        "IconPhrase": "Umumnya berawan",
+        "IsDaylight": false,
+        "Temperature": {
+            "Value": 20.2,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "RealFeelTemperature": {
+            "Value": 20.9,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "WetBulbTemperature": {
+            "Value": 19.6,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "DewPoint": {
+            "Value": 19,
+            "Unit": "C",
+            "UnitType": 17
+        },
+        "Wind": {
+            "Speed": {
+                "Value": 5.6,
+                "Unit": "km/h",
+                "UnitType": 7
+            },
+            "Direction": {
+                "Degrees": 236,
+                "Localized": "BD",
+                "English": "SW"
+            }
+        },
+        "WindGust": {
+            "Speed": {
+                "Value": 7.4,
+                "Unit": "km/h",
+                "UnitType": 7
+            }
+        },
+        "RelativeHumidity": 93,
+        "Visibility": {
+            "Value": 8,
+            "Unit": "km",
+            "UnitType": 6
+        },
+        "Ceiling": {
+            "Value": 9144,
+            "Unit": "m",
+            "UnitType": 5
+        },
+        "UVIndex": 0,
+        "UVIndexText": "Rendah",
+        "PrecipitationProbability": 31,
+        "RainProbability": 31,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "TotalLiquid": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Rain": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "Snow": {
+            "Value": 0,
+            "Unit": "cm",
+            "UnitType": 4
+        },
+        "Ice": {
+            "Value": 0,
+            "Unit": "mm",
+            "UnitType": 3
+        },
+        "CloudCover": 87,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/hourly-weather-forecast/3436452?day=1&hbhhour=23&unit=c&lang=id-id"
+    }
+]

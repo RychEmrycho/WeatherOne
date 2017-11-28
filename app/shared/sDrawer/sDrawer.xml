@@ -1,0 +1,26 @@
+<GridLayout rows="auto, *" class="sidedrawer sidedrawer-center" loaded="onLoaded"
+    xmlns:sDrawer="shared/sDrawer" xmlns:Gradient="nativescript-gradient">
+    <StackLayout class="sidedrawer-header">
+        <Label class="sidedrawer-header-image fa" text="&#xf2bd;" />
+        <Label class="sidedrawer-header-brand" text="User Name" />
+        <Label class="footnote" text="username@mail.com" />
+    </StackLayout>
+
+    <ScrollView row="1">
+        <StackLayout class="sidedrawer-content" row="1">
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'Cuaca' ? ' selected': '') }}"
+                route="cuaca/cuaca-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf185;" class="fa" />
+                <Label row="0" col="1" text="Cuaca" class="sDrawerText p-r-10" />
+            </GridLayout>
+
+            <StackLayout class="hr-light"></StackLayout>
+
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'Pengaturan' ? ' selected': '') }}"
+                route="pengaturan/pengaturan-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf1de;" class="fa" />
+                <Label row="0" col="1" text="Pengaturan" class="sDrawerText p-r-10" />
+            </GridLayout>
+        </StackLayout>
+    </ScrollView>
+</GridLayout>

@@ -1,0 +1,103 @@
+    {
+        "Version": 1,
+        "Key": "3436452",
+        "Type": "City",
+        "Rank": 85,
+        "LocalizedName": "Sitoluama",
+        "EnglishName": "Sitoluama",
+        "PrimaryPostalCode": "",
+        "Region": {
+            "ID": "ASI",
+            "LocalizedName": "Asia",
+            "EnglishName": "Asia"
+        },
+        "Country": {
+            "ID": "ID",
+            "LocalizedName": "Indonesia",
+            "EnglishName": "Indonesia"
+        },
+        "AdministrativeArea": {
+            "ID": "SU",
+            "LocalizedName": "Sumatera Utara",
+            "EnglishName": "North Sumatra",
+            "Level": 1,
+            "LocalizedType": "Provinsi",
+            "EnglishType": "Province",
+            "CountryID": "ID"
+        },
+        "TimeZone": {
+            "Code": "WIT",
+            "Name": "Asia/Jakarta",
+            "GmtOffset": 7,
+            "IsDaylightSaving": false,
+            "NextOffsetChange": null
+        },
+        "GeoPosition": {
+            "Latitude": 2.379,
+            "Longitude": 99.147,
+            "Elevation": {
+                "Metric": {
+                    "Value": 918,
+                    "Unit": "m",
+                    "UnitType": 5
+                },
+                "Imperial": {
+                    "Value": 3011,
+                    "Unit": "ft",
+                    "UnitType": 0
+                }
+            }
+        },
+        "IsAlias": false,
+        "SupplementalAdminAreas": [{
+                "Level": 2,
+                "LocalizedName": "Toba Samosir",
+                "EnglishName": "Toba Samosir"
+            },
+            {
+                "Level": 3,
+                "LocalizedName": "Laguboti",
+                "EnglishName": "Laguboti"
+            }
+        ],
+        "DataSets": [],
+        "Details": {
+            "Key": "3436452",
+            "StationCode": "ID1019",
+            "StationGmtOffset": 7,
+            "BandMap": "ID",
+            "Climo": "SIBX",
+            "LocalRadar": "",
+            "MediaRegion": null,
+            "Metar": "WIMS",
+            "NXMetro": "",
+            "NXState": "",
+            "Population": 1624,
+            "PrimaryWarningCountyCode": "",
+            "PrimaryWarningZoneCode": "",
+            "Satellite": "MIDE",
+            "Synoptic": "96073",
+            "MarineStation": "",
+            "MarineStationGMTOffset": null,
+            "VideoCode": "",
+            "PartnerID": null,
+            "Sources": [{
+                    "DataType": "CurrentConditions",
+                    "Source": "AccuWeather",
+                    "SourceId": 1
+                },
+                {
+                    "DataType": "DailyForecast",
+                    "Source": "AccuWeather",
+                    "SourceId": 1
+                },
+                {
+                    "DataType": "HourlyForecast",
+                    "Source": "AccuWeather",
+                    "SourceId": 1
+                }
+            ],
+            "CanonicalPostalCode": "",
+            "CanonicalLocationKey": "3436452"
+        }
+    }

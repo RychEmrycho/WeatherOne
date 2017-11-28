@@ -1,0 +1,1164 @@
+{
+    "Headline": {
+        "EffectiveDate": "2017-11-20T13:00:00+07:00",
+        "EffectiveEpochDate": 1511157600,
+        "Severity": 5,
+        "Text": "Badai petir Senin sore",
+        "Category": "thunderstorm",
+        "EndDate": "2017-11-20T19:00:00+07:00",
+        "EndEpochDate": 1511179200,
+        "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/extended-weather-forecast/3436452?unit=c&lang=id-id",
+        "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/daily-weather-forecast/3436452?unit=c&lang=id-id"
+    },
+    "DailyForecasts": [{
+            "Date": "2017-11-20T07:00:00+07:00",
+            "EpochDate": 1511136000,
+            "Sun": {
+                "Rise": "2017-11-20T06:09:00+07:00",
+                "EpochRise": 1511132940,
+                "Set": "2017-11-20T18:09:00+07:00",
+                "EpochSet": 1511176140
+            },
+            "Moon": {
+                "Rise": "2017-11-20T07:26:00+07:00",
+                "EpochRise": 1511137560,
+                "Set": "2017-11-20T19:42:00+07:00",
+                "EpochSet": 1511181720,
+                "Phase": "WaxingCrescent",
+                "Age": 2
+            },
+            "Temperature": {
+                "Minimum": {
+                    "Value": 18.9,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 25.9,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "RealFeelTemperature": {
+                "Minimum": {
+                    "Value": 18.4,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 32.7,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "RealFeelTemperatureShade": {
+                "Minimum": {
+                    "Value": 18.4,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 28,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "HoursOfSun": 5.4,
+            "DegreeDaySummary": {
+                "Heating": {
+                    "Value": 0,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Cooling": {
+                    "Value": 4,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "AirAndPollen": [{
+                    "Name": "AirQuality",
+                    "Value": 0,
+                    "Category": "Bagus",
+                    "CategoryValue": 1,
+                    "Type": "Ozon"
+                },
+                {
+                    "Name": "Grass",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Mold",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Ragweed",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Tree",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "UVIndex",
+                    "Value": 9,
+                    "Category": "Sangat tinggi",
+                    "CategoryValue": 4
+                }
+            ],
+            "Day": {
+                "Icon": 17,
+                "IconPhrase": "Sebagian cerah dengan badai petir",
+                "ShortPhrase": "Sedikit hujan singkat atau badai petir",
+                "LongPhrase": "Sedikit hujan singkat atau badai petir",
+                "PrecipitationProbability": 55,
+                "ThunderstormProbability": 60,
+                "RainProbability": 55,
+                "SnowProbability": 0,
+                "IceProbability": 0,
+                "Wind": {
+                    "Speed": {
+                        "Value": 5.6,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 48,
+                        "Localized": "TL",
+                        "English": "NE"
+                    }
+                },
+                "WindGust": {
+                    "Speed": {
+                        "Value": 9.3,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 45,
+                        "Localized": "TL",
+                        "English": "NE"
+                    }
+                },
+                "TotalLiquid": {
+                    "Value": 5,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Rain": {
+                    "Value": 5,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Snow": {
+                    "Value": 0,
+                    "Unit": "cm",
+                    "UnitType": 4
+                },
+                "Ice": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "HoursOfPrecipitation": 2,
+                "HoursOfRain": 2,
+                "HoursOfSnow": 0,
+                "HoursOfIce": 0,
+                "CloudCover": 62
+            },
+            "Night": {
+                "Icon": 40,
+                "IconPhrase": "Umumnya berawan dengan hujan singkat",
+                "ShortPhrase": "Sedikit hujan singkat mungkin terjadi",
+                "LongPhrase": "Sedikit hujan singkat mungkin terjadi",
+                "PrecipitationProbability": 43,
+                "ThunderstormProbability": 23,
+                "RainProbability": 43,
+                "SnowProbability": 0,
+                "IceProbability": 0,
+                "Wind": {
+                    "Speed": {
+                        "Value": 5.6,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 237,
+                        "Localized": "BBD",
+                        "English": "WSW"
+                    }
+                },
+                "WindGust": {
+                    "Speed": {
+                        "Value": 7.4,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 230,
+                        "Localized": "BD",
+                        "English": "SW"
+                    }
+                },
+                "TotalLiquid": {
+                    "Value": 1,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Rain": {
+                    "Value": 1,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Snow": {
+                    "Value": 0,
+                    "Unit": "cm",
+                    "UnitType": 4
+                },
+                "Ice": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "HoursOfPrecipitation": 1,
+                "HoursOfRain": 1,
+                "HoursOfSnow": 0,
+                "HoursOfIce": 0,
+                "CloudCover": 87
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/daily-weather-forecast/3436452?day=1&unit=c&lang=id-id",
+            "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/daily-weather-forecast/3436452?day=1&unit=c&lang=id-id"
+        },
+        {
+            "Date": "2017-11-21T07:00:00+07:00",
+            "EpochDate": 1511222400,
+            "Sun": {
+                "Rise": "2017-11-21T06:09:00+07:00",
+                "EpochRise": 1511219340,
+                "Set": "2017-11-21T18:09:00+07:00",
+                "EpochSet": 1511262540
+            },
+            "Moon": {
+                "Rise": "2017-11-21T08:14:00+07:00",
+                "EpochRise": 1511226840,
+                "Set": "2017-11-21T20:29:00+07:00",
+                "EpochSet": 1511270940,
+                "Phase": "WaxingCrescent",
+                "Age": 3
+            },
+            "Temperature": {
+                "Minimum": {
+                    "Value": 18.9,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 26.1,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "RealFeelTemperature": {
+                "Minimum": {
+                    "Value": 19.4,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 32.4,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "RealFeelTemperatureShade": {
+                "Minimum": {
+                    "Value": 19.4,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 29.6,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "HoursOfSun": 1.9,
+            "DegreeDaySummary": {
+                "Heating": {
+                    "Value": 0,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Cooling": {
+                    "Value": 4,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "AirAndPollen": [{
+                    "Name": "AirQuality",
+                    "Value": 0,
+                    "Category": "Bagus",
+                    "CategoryValue": 1,
+                    "Type": "Ozon"
+                },
+                {
+                    "Name": "Grass",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Mold",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Ragweed",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Tree",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "UVIndex",
+                    "Value": 5,
+                    "Category": "Sedang",
+                    "CategoryValue": 2
+                }
+            ],
+            "Day": {
+                "Icon": 15,
+                "IconPhrase": "Badai petir",
+                "ShortPhrase": "Sedikit hujan singkat atau badai petir",
+                "LongPhrase": "Sedikit hujan singkat atau badai petir",
+                "PrecipitationProbability": 70,
+                "ThunderstormProbability": 60,
+                "RainProbability": 70,
+                "SnowProbability": 0,
+                "IceProbability": 0,
+                "Wind": {
+                    "Speed": {
+                        "Value": 5.6,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 137,
+                        "Localized": "TG",
+                        "English": "SE"
+                    }
+                },
+                "WindGust": {
+                    "Speed": {
+                        "Value": 7.4,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 83,
+                        "Localized": "T",
+                        "English": "E"
+                    }
+                },
+                "TotalLiquid": {
+                    "Value": 9,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Rain": {
+                    "Value": 9,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Snow": {
+                    "Value": 0,
+                    "Unit": "cm",
+                    "UnitType": 4
+                },
+                "Ice": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "HoursOfPrecipitation": 2.5,
+                "HoursOfRain": 2.5,
+                "HoursOfSnow": 0,
+                "HoursOfIce": 0,
+                "CloudCover": 92
+            },
+            "Night": {
+                "Icon": 38,
+                "IconPhrase": "Umumnya berawan",
+                "ShortPhrase": "Sedikit hujan singkat mungkin terjadi",
+                "LongPhrase": "Sedikit hujan singkat mungkin terjadi",
+                "PrecipitationProbability": 40,
+                "ThunderstormProbability": 29,
+                "RainProbability": 40,
+                "SnowProbability": 0,
+                "IceProbability": 0,
+                "Wind": {
+                    "Speed": {
+                        "Value": 5.6,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 248,
+                        "Localized": "BBD",
+                        "English": "WSW"
+                    }
+                },
+                "WindGust": {
+                    "Speed": {
+                        "Value": 7.4,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 242,
+                        "Localized": "BBD",
+                        "English": "WSW"
+                    }
+                },
+                "TotalLiquid": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Rain": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Snow": {
+                    "Value": 0,
+                    "Unit": "cm",
+                    "UnitType": 4
+                },
+                "Ice": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "HoursOfPrecipitation": 0.5,
+                "HoursOfRain": 0.5,
+                "HoursOfSnow": 0,
+                "HoursOfIce": 0,
+                "CloudCover": 94
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/daily-weather-forecast/3436452?day=2&unit=c&lang=id-id",
+            "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/daily-weather-forecast/3436452?day=2&unit=c&lang=id-id"
+        },
+        {
+            "Date": "2017-11-22T07:00:00+07:00",
+            "EpochDate": 1511308800,
+            "Sun": {
+                "Rise": "2017-11-22T06:09:00+07:00",
+                "EpochRise": 1511305740,
+                "Set": "2017-11-22T18:10:00+07:00",
+                "EpochSet": 1511349000
+            },
+            "Moon": {
+                "Rise": "2017-11-22T09:02:00+07:00",
+                "EpochRise": 1511316120,
+                "Set": "2017-11-22T21:18:00+07:00",
+                "EpochSet": 1511360280,
+                "Phase": "WaxingCrescent",
+                "Age": 4
+            },
+            "Temperature": {
+                "Minimum": {
+                    "Value": 18.5,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 25.8,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "RealFeelTemperature": {
+                "Minimum": {
+                    "Value": 17.2,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 31.6,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "RealFeelTemperatureShade": {
+                "Minimum": {
+                    "Value": 17.2,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 28.9,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "HoursOfSun": 1.4,
+            "DegreeDaySummary": {
+                "Heating": {
+                    "Value": 0,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Cooling": {
+                    "Value": 4,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "AirAndPollen": [{
+                    "Name": "AirQuality",
+                    "Value": 0,
+                    "Category": "Bagus",
+                    "CategoryValue": 1,
+                    "Type": "Ozon"
+                },
+                {
+                    "Name": "Grass",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Mold",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Ragweed",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Tree",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "UVIndex",
+                    "Value": 5,
+                    "Category": "Sedang",
+                    "CategoryValue": 2
+                }
+            ],
+            "Day": {
+                "Icon": 15,
+                "IconPhrase": "Badai petir",
+                "ShortPhrase": "Sedikit hujan singkat atau badai petir",
+                "LongPhrase": "Sedikit hujan singkat atau badai petir",
+                "PrecipitationProbability": 65,
+                "ThunderstormProbability": 60,
+                "RainProbability": 65,
+                "SnowProbability": 0,
+                "IceProbability": 0,
+                "Wind": {
+                    "Speed": {
+                        "Value": 5.6,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 23,
+                        "Localized": "UTL",
+                        "English": "NNE"
+                    }
+                },
+                "WindGust": {
+                    "Speed": {
+                        "Value": 9.3,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 46,
+                        "Localized": "TL",
+                        "English": "NE"
+                    }
+                },
+                "TotalLiquid": {
+                    "Value": 7,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Rain": {
+                    "Value": 7,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Snow": {
+                    "Value": 0,
+                    "Unit": "cm",
+                    "UnitType": 4
+                },
+                "Ice": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "HoursOfPrecipitation": 1,
+                "HoursOfRain": 1,
+                "HoursOfSnow": 0,
+                "HoursOfIce": 0,
+                "CloudCover": 96
+            },
+            "Night": {
+                "Icon": 38,
+                "IconPhrase": "Umumnya berawan",
+                "ShortPhrase": "Sedikit hujan singkat dan badai petir mungkin terjadi",
+                "LongPhrase": "Sedikit hujan singkat dan badai petir mungkin terjadi",
+                "PrecipitationProbability": 41,
+                "ThunderstormProbability": 40,
+                "RainProbability": 41,
+                "SnowProbability": 0,
+                "IceProbability": 0,
+                "Wind": {
+                    "Speed": {
+                        "Value": 3.7,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 242,
+                        "Localized": "BBD",
+                        "English": "WSW"
+                    }
+                },
+                "WindGust": {
+                    "Speed": {
+                        "Value": 7.4,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 250,
+                        "Localized": "BBD",
+                        "English": "WSW"
+                    }
+                },
+                "TotalLiquid": {
+                    "Value": 2,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Rain": {
+                    "Value": 2,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Snow": {
+                    "Value": 0,
+                    "Unit": "cm",
+                    "UnitType": 4
+                },
+                "Ice": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "HoursOfPrecipitation": 1.5,
+                "HoursOfRain": 1.5,
+                "HoursOfSnow": 0,
+                "HoursOfIce": 0,
+                "CloudCover": 92
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/daily-weather-forecast/3436452?day=3&unit=c&lang=id-id",
+            "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/daily-weather-forecast/3436452?day=3&unit=c&lang=id-id"
+        },
+        {
+            "Date": "2017-11-23T07:00:00+07:00",
+            "EpochDate": 1511395200,
+            "Sun": {
+                "Rise": "2017-11-23T06:10:00+07:00",
+                "EpochRise": 1511392200,
+                "Set": "2017-11-23T18:10:00+07:00",
+                "EpochSet": 1511435400
+            },
+            "Moon": {
+                "Rise": "2017-11-23T09:50:00+07:00",
+                "EpochRise": 1511405400,
+                "Set": "2017-11-23T22:05:00+07:00",
+                "EpochSet": 1511449500,
+                "Phase": "WaxingCrescent",
+                "Age": 5
+            },
+            "Temperature": {
+                "Minimum": {
+                    "Value": 18.7,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 26.1,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "RealFeelTemperature": {
+                "Minimum": {
+                    "Value": 17.7,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 31,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "RealFeelTemperatureShade": {
+                "Minimum": {
+                    "Value": 17.7,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 28.8,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "HoursOfSun": 2,
+            "DegreeDaySummary": {
+                "Heating": {
+                    "Value": 0,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Cooling": {
+                    "Value": 4,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "AirAndPollen": [{
+                    "Name": "AirQuality",
+                    "Value": 0,
+                    "Category": "Bagus",
+                    "CategoryValue": 1,
+                    "Type": "Ozon"
+                },
+                {
+                    "Name": "Grass",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Mold",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Ragweed",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Tree",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "UVIndex",
+                    "Value": 4,
+                    "Category": "Sedang",
+                    "CategoryValue": 2
+                }
+            ],
+            "Day": {
+                "Icon": 7,
+                "IconPhrase": "Berawan",
+                "ShortPhrase": "Sedikit badai petir di beberapa bagian area ini",
+                "LongPhrase": "Sedikit badai petir di beberapa bagian area ini",
+                "PrecipitationProbability": 57,
+                "ThunderstormProbability": 60,
+                "RainProbability": 57,
+                "SnowProbability": 0,
+                "IceProbability": 0,
+                "Wind": {
+                    "Speed": {
+                        "Value": 5.6,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 355,
+                        "Localized": "U",
+                        "English": "N"
+                    }
+                },
+                "WindGust": {
+                    "Speed": {
+                        "Value": 9.3,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 30,
+                        "Localized": "UTL",
+                        "English": "NNE"
+                    }
+                },
+                "TotalLiquid": {
+                    "Value": 4,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Rain": {
+                    "Value": 4,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Snow": {
+                    "Value": 0,
+                    "Unit": "cm",
+                    "UnitType": 4
+                },
+                "Ice": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "HoursOfPrecipitation": 2,
+                "HoursOfRain": 2,
+                "HoursOfSnow": 0,
+                "HoursOfIce": 0,
+                "CloudCover": 91
+            },
+            "Night": {
+                "Icon": 7,
+                "IconPhrase": "Berawan",
+                "ShortPhrase": "Sedikit hujan singkat dan badai petir mungkin terjadi",
+                "LongPhrase": "Sedikit hujan singkat dan badai petir mungkin terjadi",
+                "PrecipitationProbability": 40,
+                "ThunderstormProbability": 40,
+                "RainProbability": 40,
+                "SnowProbability": 0,
+                "IceProbability": 0,
+                "Wind": {
+                    "Speed": {
+                        "Value": 5.6,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 277,
+                        "Localized": "B",
+                        "English": "W"
+                    }
+                },
+                "WindGust": {
+                    "Speed": {
+                        "Value": 7.4,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 338,
+                        "Localized": "UBL",
+                        "English": "NNW"
+                    }
+                },
+                "TotalLiquid": {
+                    "Value": 2,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Rain": {
+                    "Value": 2,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Snow": {
+                    "Value": 0,
+                    "Unit": "cm",
+                    "UnitType": 4
+                },
+                "Ice": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "HoursOfPrecipitation": 1,
+                "HoursOfRain": 1,
+                "HoursOfSnow": 0,
+                "HoursOfIce": 0,
+                "CloudCover": 95
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/daily-weather-forecast/3436452?day=4&unit=c&lang=id-id",
+            "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/daily-weather-forecast/3436452?day=4&unit=c&lang=id-id"
+        },
+        {
+            "Date": "2017-11-24T07:00:00+07:00",
+            "EpochDate": 1511481600,
+            "Sun": {
+                "Rise": "2017-11-24T06:10:00+07:00",
+                "EpochRise": 1511478600,
+                "Set": "2017-11-24T18:10:00+07:00",
+                "EpochSet": 1511521800
+            },
+            "Moon": {
+                "Rise": "2017-11-24T10:36:00+07:00",
+                "EpochRise": 1511494560,
+                "Set": "2017-11-24T22:52:00+07:00",
+                "EpochSet": 1511538720,
+                "Phase": "WaxingCrescent",
+                "Age": 6
+            },
+            "Temperature": {
+                "Minimum": {
+                    "Value": 18.8,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 25.7,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "RealFeelTemperature": {
+                "Minimum": {
+                    "Value": 18.9,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 29.7,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "RealFeelTemperatureShade": {
+                "Minimum": {
+                    "Value": 18.9,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Maximum": {
+                    "Value": 27.6,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "HoursOfSun": 1.2,
+            "DegreeDaySummary": {
+                "Heating": {
+                    "Value": 0,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Cooling": {
+                    "Value": 4,
+                    "Unit": "C",
+                    "UnitType": 17
+                }
+            },
+            "AirAndPollen": [{
+                    "Name": "AirQuality",
+                    "Value": 0,
+                    "Category": "Bagus",
+                    "CategoryValue": 1,
+                    "Type": "Ozon"
+                },
+                {
+                    "Name": "Grass",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Mold",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Ragweed",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "Tree",
+                    "Value": 0,
+                    "Category": "Rendah",
+                    "CategoryValue": 1
+                },
+                {
+                    "Name": "UVIndex",
+                    "Value": 3,
+                    "Category": "Sedang",
+                    "CategoryValue": 2
+                }
+            ],
+            "Day": {
+                "Icon": 15,
+                "IconPhrase": "Badai petir",
+                "ShortPhrase": "Badai petir",
+                "LongPhrase": "Badai petir",
+                "PrecipitationProbability": 80,
+                "ThunderstormProbability": 60,
+                "RainProbability": 80,
+                "SnowProbability": 0,
+                "IceProbability": 0,
+                "Wind": {
+                    "Speed": {
+                        "Value": 5.6,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 3,
+                        "Localized": "U",
+                        "English": "N"
+                    }
+                },
+                "WindGust": {
+                    "Speed": {
+                        "Value": 11.1,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 36,
+                        "Localized": "TL",
+                        "English": "NE"
+                    }
+                },
+                "TotalLiquid": {
+                    "Value": 9,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Rain": {
+                    "Value": 9,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Snow": {
+                    "Value": 0,
+                    "Unit": "cm",
+                    "UnitType": 4
+                },
+                "Ice": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "HoursOfPrecipitation": 3,
+                "HoursOfRain": 3,
+                "HoursOfSnow": 0,
+                "HoursOfIce": 0,
+                "CloudCover": 98
+            },
+            "Night": {
+                "Icon": 7,
+                "IconPhrase": "Berawan",
+                "ShortPhrase": "Berawan",
+                "LongPhrase": "Berawan",
+                "PrecipitationProbability": 41,
+                "ThunderstormProbability": 29,
+                "RainProbability": 41,
+                "SnowProbability": 0,
+                "IceProbability": 0,
+                "Wind": {
+                    "Speed": {
+                        "Value": 5.6,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 263,
+                        "Localized": "B",
+                        "English": "W"
+                    }
+                },
+                "WindGust": {
+                    "Speed": {
+                        "Value": 7.4,
+                        "Unit": "km/h",
+                        "UnitType": 7
+                    },
+                    "Direction": {
+                        "Degrees": 248,
+                        "Localized": "BBD",
+                        "English": "WSW"
+                    }
+                },
+                "TotalLiquid": {
+                    "Value": 1,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Rain": {
+                    "Value": 1,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "Snow": {
+                    "Value": 0,
+                    "Unit": "cm",
+                    "UnitType": 4
+                },
+                "Ice": {
+                    "Value": 0,
+                    "Unit": "mm",
+                    "UnitType": 3
+                },
+                "HoursOfPrecipitation": 1,
+                "HoursOfRain": 1,
+                "HoursOfSnow": 0,
+                "HoursOfIce": 0,
+                "CloudCover": 99
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "MobileLink": "http://m.accuweather.com/id/id/sitoluama/3436452/daily-weather-forecast/3436452?day=5&unit=c&lang=id-id",
+            "Link": "http://www.accuweather.com/id/id/sitoluama/3436452/daily-weather-forecast/3436452?day=5&unit=c&lang=id-id"
+        }
+    ]
+}
